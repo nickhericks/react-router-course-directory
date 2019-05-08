@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header>
     <span className="icn-logo"><i className="material-icons">code</i></span>
     <ul className="main-nav">
-      <li><Link to="#">Home</Link></li>
-      <li><Link to="#">About</Link></li>
-      <li><Link to="#">Teachers</Link></li>
-      <li><Link to="#">Courses</Link></li>
+      <li><NavLink exact to="/" activeStyle={{ background: 'tomato' }}>Home</NavLink></li>
+      <li><NavLink to="/about" activeClassName="applyThisClassWhenActive">About</NavLink></li>
+      <li><NavLink to="/teachers">Teachers</NavLink></li>
+      <li><NavLink to="/courses">Courses</NavLink></li>
     </ul>    
   </header>
 );
