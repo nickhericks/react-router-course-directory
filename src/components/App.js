@@ -29,7 +29,6 @@ const App = () => (
       </Switch>
     </div>
 		
-		{/* Github ribbon */}
 		<div className="github-ribbon">
 			<a href="https://github.com/nickhericks/react-router-course-directory" target="_blank">
 				<i className="fab fa-github"></i>
