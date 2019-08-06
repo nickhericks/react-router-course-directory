@@ -28,10 +28,10 @@ const App = () => (
         <Route component={NotFound} />
       </Switch>
 			<div className="github-ribbon">
-				<a href="https://github.com/nickhericks/react-router-course-directory" target="_blank">
+				<Link to="https://github.com/nickhericks/react-router-course-directory" target="_blank">
 					<i className="fab fa-github"></i>
 					<span>View on GitHub</span>
-				</a>
+				</Link>
 			</div>
     </div>
   </BrowserRouter>
