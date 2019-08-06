@@ -30,9 +30,9 @@ const App = () => (
     </div>
 		
 		{/* Github ribbon */}
-		<div class="github-ribbon">
+		<div className="github-ribbon">
 			<a href="https://github.com/nickhericks/react-router-course-directory" target="_blank">
-				<i class="fab fa-github"></i>
+				<i className="fab fa-github"></i>
 				<span>View on GitHub</span>
 			</a>
 		</div>
