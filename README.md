@@ -1,12 +1,14 @@
-<!-- # Project 7 - Full Stack JavaScript Techdegree
+# React Exercise - Full Stack JavaScript Techdegree
 
-### React Gallery App
+### Course directory application
+This project was a way for me to learn about create-react-app and React-Bootstrap.
 
-An image gallery app built using the React library.
+***
 
----
+## View project
+:mag: Live version available at [nickhericks.github.io/react-router-course-directory/](https://nickhericks.github.io/react-router-course-directory/)
 
-<img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1557551236/portfolio/react-gallery.png" width="899px"> -->
+<img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1565075796/portfolio/reactcoursedirectory.png" width="899px">
 
 ## View project
 1. Download this repo.
@@ -14,7 +16,6 @@ An image gallery app built using the React library.
 3. Run 'npm install' (or view the required dependencies listed in the package.json file and install each manually).
 3. Run 'npm start' to view the project in your browser at:  localhost:3000
 
-:mag: Live version available at [nickhericks.github.io/react-router-course-directory/](https://nickhericks.github.io/react-router-course-directory/)
 <!-- 
 ## Project objective
 
