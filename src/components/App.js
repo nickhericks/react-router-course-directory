@@ -27,14 +27,13 @@ const App = () => (
         <Route path="/courses" component={Courses} />
         <Route component={NotFound} />
       </Switch>
+			<div className="github-ribbon">
+				<a href="https://github.com/nickhericks/react-router-course-directory" target="_blank">
+					<i className="fab fa-github"></i>
+					<span>View on GitHub</span>
+				</a>
+			</div>
     </div>
-		
-		<div className="github-ribbon">
-			<a href="https://github.com/nickhericks/react-router-course-directory" target="_blank">
-				<i className="fab fa-github"></i>
-				<span>View on GitHub</span>
-			</a>
-		</div>
   </BrowserRouter>
 );
 
