@@ -18,13 +18,15 @@ import NotFound from './NotFound';
 const App = () => (
   <BrowserRouter basename="/react-router-course-directory">
     <div className="container">
-
-			<div className="github-ribbon">
-				<Link to="https://github.com/nickhericks/react-router-course-directory" target="_blank">
-					<i className="fab fa-github"></i>
-					<span>View on GitHub</span>
-				</Link>
-			</div>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" render={() => <About title="About" />} />
+        <Route exact path="/teachers" component={Teachers} />
+        <Route path="/teachers/:topic/:name" component={Featured} />
+        <Route path="/courses" component={Courses} />
+        <Route component={NotFound} />
+      </Switch>
     </div>
   </BrowserRouter>
 );
